@@ -1,0 +1,1 @@
+"Vérifier si ObjClass est bien défini"ObjClass isNil ifTrue: [    Transcript show: 'ObjClass is not defined or is nil'; cr.] ifFalse: [    Transcript show: 'ObjClass is properly defined'; cr.].

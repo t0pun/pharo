@@ -1,0 +1,1 @@
+| point methodBlock result |"Créer une instance de PointClass"point := PointClass new."Vérifier le corps de la méthode #x"methodBlock := point class bodyOfMethod: #x."Exécuter le bloc et afficher le résultat"result := methodBlock value.Transcript show: result; cr.

@@ -1,0 +1,376 @@
+[31mKeyNotFound: key #objClass not found in IdentityDictionary
+[0mIdentityDictionary(Dictionary)>>errorKeyNotFound:
+[ self errorKeyNotFound: key ] in IdentityDictionary(Dictionary)>>at: in Block: [ self errorKeyNotFound: key ]
+IdentityDictionary(Dictionary)>>at:ifAbsent:
+IdentityDictionary(Dictionary)>>at:
+Obj class>>doesNotUnderstand: #objClass
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0mntJob value: self during: [ ^ block cull: self ] ] in Job>>run in Block: [ self prepareForRunning....
+BlockClosure>>ensure:
+Job>>run
+[ | version |
+version := versions first.
+[ self ensurePackage: version package.
+self loadWithNameLike: version info name ] asJob
+	title: 'Loading ' , version info name asString;
+	run ] in MCVersionLoader>>load in Block: [ | version |...
+BlockClosure>>ensure:
+RPackageSet class>>withCacheDo:
+MCVersionLoader>>load
+MCVersionLoader class>>loadVersion:
+MCVersion>>load
+[ self version load ] in MCFileRepositoryInspector(MCVersionInspector)>>load in Block: [ self version load ]
+BlockClosure>>ensure:
+[0m[31mError: Could not save version.
+[0mMCSmalltalkhubRepository(MCHttpRepository)>>handleUnsuccessfulResponse:
+[ :exception | 
+(exception isKindOf: ZnHttpUnsuccessful)
+	ifTrue: [ ^ self handleUnsuccessfulResponse: exception response ].
+self error: 'Could not save ' , aString , ': ' , exception printString ] in [ self httpClient
+	entity: entity;
+	ifFail: [ :exception | 
+		(exception isKindOf: ZnHttpUnsuccessful)
+			ifTrue: [ ^ self handleUnsuccessfulResponse: exception response ].
+		self
+			error: 'Could not save ' , aString , ': ' , exception printString ];
+	url: (self urlForFileNamed: aString);
+	put ] in MCSmalltalkhubRepository(MCHttpRepository)>>writeStreamForFileNamed:replace:do: in Block: [ :exception | ...
+BlockClosure>>cull:
+Context>>evaluateSignal:
+Context>>handleSignal:
+Context>>handleSignal:
+ZnHttpUnsuccessful(Exception)>>signal
+ZnClient>>handleResponse
+ZnClient>>executeWithRedirectsRemaining:
+[ self executeWithRedirectsRemaining: self maxNumberOfRedirects ] in ZnClient>>executeWithRetriesRemaining: in Block: [ self executeWithRedirectsRemaining: self maxNumb...etc...
+BlockClosure>>on:do:
+ZnClient>>executeWithRetriesRemaining:
+[ self executeWithRetriesRemaining: self numberOfRetries ] in [ [ self executeWithRetriesRemaining: self numberOfRetries ]
+	on: Error
+	do: self ifFailBlock ] in ZnClient>>executeWithTimeout in Block: [ self executeWithRetriesRemaining: self numberOfR...etc...
+BlockClosure>>on:do:
+[ [ self executeWithRetriesRemaining: self numberOfRetries ]
+	on: Error
+	do: self ifFailBlock ] in ZnClient>>executeWithTimeout in Block: [ [ self executeWithRetriesRemaining: self numberO...etc...
+[ ^ block value ] in ZnClient>>withTimeoutDo: in Block: [ ^ block value ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in ZnConnectionTimeout(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+ZnConnectionTimeout(DynamicVariable)>>value:during:
+ZnConnectionTimeout class(DynamicVariable class)>>value:during:
+ZnClient>>withTimeoutDo:
+ZnClient>>executeWithTimeout
+[ result := self executeWithTimeout ] in ZnClient>>execute in Block: [ result := self executeWithTimeout ]
+[ ^ block value ] in ZnClient>>withProgressDo: in Block: [ ^ block value ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in ZnSignalProgress(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+ZnSignalProgress(DynamicVariable)>>value:during:
+ZnSignalProgress class(DynamicVariable class)>>value:during:
+ZnClient>>withProgressDo:
+ZnClient>>execute
+[0m[31m#offsetForKeywords was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #offsetForKeywords
+UndefinedObject>>doesNotUnderstand: #offsetForKeywords
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m#testClassAccess is missing, and does not understand #self
+[0mUndefinedObject>>doesNotUnderstand: #self
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31mInstance of Obj did not understand #new
+[0mObj(Object)>>doesNotUnderstand: #new
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31mInstance of Obj did not understand #new
+[0mObj(Object)>>doesNotUnderstand: #new
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m#new was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #new
+UndefinedObject>>doesNotUnderstand: #new
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m#objClass is missing, and does not understand #send:withArguments:
+[0mUndefinedObject>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m#send:withArguments: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m#send:withArguments: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m#send:withArguments: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m#send:withArguments: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31m#send:withArguments: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>doesNotUnderstand: #send:withArguments:
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea editor highlightEvaluateAndDo...etc...
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate: in Block: [ textMorph textArea...
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m

@@ -1,0 +1,1 @@
+Smalltalk at: #ObjClass ifAbsent: [ "Classe inexistante" ].

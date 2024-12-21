@@ -1,0 +1,1 @@
+testClassAccess    | aPoint pointClass |        "Obtenir la classe de ObjPoint"    pointClass := Obj giveClassNamed: #ObjPoint.        "Créer une instance de ObjPoint"    aPoint := pointClass new.        "Vérifier si objClass renvoie bien la classe de aPoint"    self assert: (aPoint objClass = pointClass).

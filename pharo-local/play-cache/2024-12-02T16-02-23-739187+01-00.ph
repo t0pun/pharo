@@ -1,0 +1,1 @@
+RawObjTest >> testClassAccess    "(self selector: #testClassAccess) run"    self assert: (aPoint objClass = pointClass).

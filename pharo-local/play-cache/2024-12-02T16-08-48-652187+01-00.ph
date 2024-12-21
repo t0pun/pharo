@@ -1,0 +1,1 @@
+| pointClass |"Assurer que pointClass est bien une instance d'une classe et que son objClassId est correct"pointClass := Obj giveClassNamed: #ObjPoint."Vérifie si l'identifiant de la classe de pointClass est #ObjClass"pointClass objClassId = #ObjClass ifTrue: [ 'Test réussi' ] ifFalse: [ 'Test échoué' ].

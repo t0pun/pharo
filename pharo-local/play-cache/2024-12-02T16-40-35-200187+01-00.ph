@@ -1,0 +1,1 @@
+ObjPoint allocateAnInstance.
